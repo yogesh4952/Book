@@ -1,8 +1,9 @@
 import os
 import sys
 
-INPUT_FOLDER = r"C:\Code\Book"
+INPUT_FOLDER = r"/home/yogesh/code/Book"
 PREFIX_TO_MATCH = "_"   # matches anything starting with this
+
 PART_TO_REMOVE = PREFIX_TO_MATCH
 
 def process_folder(root_folder):
